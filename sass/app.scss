@@ -3,6 +3,7 @@
 :root {
     --main-color: #BA39A6;
     --second-color: #E958A2;
+    --text-color: #650061;
 }
 
 body, html {
@@ -45,6 +46,7 @@ body, html {
             }
 
             a {
+                color: var(--text-color);
                 text-decoration: none;
                 padding: 10px;
                 background-color: whitesmoke;

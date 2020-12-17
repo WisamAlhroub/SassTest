@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap");
+:root {
+  --main-color: #BA39A6;
+  --second-color: #E958A2;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.main-slide {
+  background-image: linear-gradient(50deg, var(--main-color) 0%, var(--second-color) 100%);
+  height: 140vh;
+}
+
+.main-slide .side-image {
+  background-image: url(../images/Exams-bro.svg);
+  background-size: 50%;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.main-slide .side-image .content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding-left: 50px;
+}
+
+.main-slide .side-image .content-wrapper h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.main-slide .side-image .content-wrapper p {
+  font-size: 30px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.main-slide .side-image .content-wrapper .actions {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main-slide .side-image .content-wrapper a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: whitesmoke;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  margin-top: 5px;
+}
+
+.main-slide .side-image .content-wrapper span {
+  position: absolute;
+  bottom: 10px;
+}
+/*# sourceMappingURL=app.css.map */

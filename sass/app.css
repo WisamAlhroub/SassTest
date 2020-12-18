@@ -36,17 +36,17 @@ body, html {
           align-items: center;
   background-color: whitesmoke;
   border-radius: 30px;
-  width: 300px;
-  height: 50px;
+  width: 20vw;
+  height: 6vh;
 }
 
 .main-slide .container .color-pickers input {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   width: 30px;
   height: 30px;
+}
+
+.main-slide .container .color-pickers label {
+  color: var(--text-color);
 }
 
 .main-slide .side-image {
@@ -64,13 +64,17 @@ body, html {
 }
 
 .main-slide .side-image .content-wrapper {
-  padding-left: 50px;
+  padding-left: 70px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
+  padding-bottom: 80px;
 }
 
 .main-slide .side-image .content-wrapper h1 {
@@ -89,7 +93,7 @@ body, html {
 }
 
 .main-slide .side-image .content-wrapper .actions {
-  margin-top: 30px;
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -107,16 +111,18 @@ body, html {
   text-decoration: none;
   padding: 10px;
   background-color: whitesmoke;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  border-radius: 20px;
-  margin-top: 5px;
+  border-radius: 25px;
+  margin-top: 10px;
+  width: 11vw;
+  height: 4vh;
+  font-size: 25px;
+  text-align: center;
 }
 
 .main-slide .side-image .content-wrapper span {
+  color: var(--text-color);
   position: absolute;
-  bottom: 5px;
+  bottom: -30px;
 }
 
 .c {

@@ -8,8 +8,16 @@
     <title>Challenger</title>
 </head>
 
-<body>
+<body onload="init()">
     <section class="main-slide">
+        <div class="container">
+            <div class="color-pickers">
+                <input type="color" name="main-color" id="main-color">
+                <label for="main-color">Main Color</label>
+                <input type="color" name="second-color" id="second-color">
+                <label for="second-color">Second Color</label>
+            </div>
+        </div>
         <div class="side-image">
             <div class="content-wrapper">
                 <h1>Challenger</h1>
@@ -22,9 +30,12 @@
             </div>
         </div>
     </section>
-    <section class="categories"></section>
+    <section class="categories">
+        <div class="c"></div>
+    </section>
     <section class="typing-section"></section>
     <section class="about-us"></section>
+    <script src="./javascript/scripts.js"></script>
 </body>
 
 </html>
